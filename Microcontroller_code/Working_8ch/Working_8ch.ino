@@ -5,8 +5,8 @@ static int lastIdx = -1;  // Remembers last index that was applied
 static int latestIdx = -1;
 
 
-const int scheduleLength = 100;
-unsigned long time_arr[scheduleLength];  // = {2000, 5000, 15000, 20000};
+const int scheduleLength = 5000;
+unsigned long time_arr[scheduleLength];  // = {2000, 5000, 15000, 20000}; in seconds
 
 float curr_CMD_arr[scheduleLength][8];  // = {
 

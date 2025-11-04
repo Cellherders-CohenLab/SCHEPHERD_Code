@@ -11,7 +11,7 @@ const uint8_t ControlBoard::swPinMap[2][4] = {
 // current readout ADC compensation (in mA)
 // calibrate using 1kohm resistors
 
-//const float ControlBoard::Curr_correction[8] = { 0.03, -0.13, 0.02, -0.13, 0.06, -0.13, 0.08, -0.13};  //board #1
+const float ControlBoard::Curr_correction[8] = { 0.03, -0.13, 0.02, -0.13, 0.06, -0.13, 0.08, -0.13};  //board #1
 //const float ControlBoard::Curr_correction[8] = { 0.12, -0.03, 0.12, -0.02, 0.12, -0.02, 0.11, -0.02};  //board #2
 
 ControlBoard::ControlBoard()
@@ -189,7 +189,7 @@ bool decodeCMD(const String& input, unsigned long* time_arr, float (*curr_CMD_ar
   String payload = input.substring(endN + 2);
   payload.trim();
 
-  String tokens[1024];
+  String tokens[max_entries*9];
   int numTokens = 0;
   int start = 0;
   for (unsigned int i = 0; i < payload.length(); i++) {
