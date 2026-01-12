@@ -1,6 +1,6 @@
 %shamelessly from GPT
 
-clsoe all; clc; clear;
+close all; clc; clear;
 % ===== pick file via dialog =====
 [fn, fp] = uigetfile( ...
     {'*.txt;*.log;*.csv','Text Logs (*.txt, *.log, *.csv)'; '*.*','All Files (*.*)'}, ...
