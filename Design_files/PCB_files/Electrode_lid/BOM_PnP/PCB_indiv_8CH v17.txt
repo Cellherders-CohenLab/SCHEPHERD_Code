@@ -1,0 +1,5 @@
+Partlist exported from Fusion Hub: Personal   Project: Cohenlab  Board: PCB_indiv_8CH v17 at 11/22/24 3:01 PM
+
+Qty Value      Device     Package         Parts                                                          Description                                               CATEGORY DESCRIPTION MANUFACTURER     MPN  OPERATING_TEMPERATURE                            PART_STATUS        PITCH           ROHS_COMPLIANCE SERIES SUBCATEGORY TYPE           VALUE   
+16  5-520315-2 5-520315-2 5-520315-2      1N, 1P, 2N, 2P, 3N, 3P, 4N, 4P, 5N, 5P, 6N, 6P, 7N, 7P, 8N, 8P                                                                                                                                                                                                                                                    
+1   HDMI-RCPT  10029449   10029449-001RLF J1                                                             Connector, Hdmi Type a, Receptacle, 19 Position, Full Ree USB       DVI         HDMI Connectors HDMI  Displayport & DVI Connectors TYPE A RECEPTACLE  Amphenol ICC (FCI) 10029449-001RLF -20°C ~ 85°C    ACTIVE -           RoHS Compliant 10029449

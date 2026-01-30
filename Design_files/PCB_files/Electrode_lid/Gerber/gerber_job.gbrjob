@@ -1,0 +1,24 @@
+{
+    "Header": {
+        "Comment": "All values are metric (mm)",
+        "CreationDate": "2024-11-22T20:01:42Z",
+        "GenerationSoftware": {
+            "Application": "Fusion Electronics",
+            "Vendor": "Autodesk",
+            "Version": "9.7.0"
+        },
+        "Part": "Single"
+    },
+    "Overall": {
+        "BoardThickness": 1.67,
+        "LayerNumber": 2,
+        "Name": {
+            "ProjectId": "PCB_indiv_8CH v16"
+        },
+        "Owner": "Yubin Lin <yl7872@princeton.edu>",
+        "Size": {
+            "X": 147.8,
+            "Y": 105.5
+        }
+    }
+}
